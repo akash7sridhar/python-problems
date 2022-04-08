@@ -30,4 +30,4 @@ else:
             room_set_uniq.add(i)
 
     captain_room = room_set_uniq.difference(room_set)
-    print(list(captain_room)[0])   
+    print(list(captain_room)[0])
